@@ -1,0 +1,25 @@
+# 数据集配置文件
+path: dataset/yolo_format  # 数据集根目录
+train: images/train        # 训练集图片目录
+val: images/val           # 验证集图片目录
+
+# 类别数量
+nc: 15
+
+# 类别名称
+names:
+  0: angry      # 愤怒
+  1: disgust    # 厌恶
+  2: fear       # 恐惧
+  3: happy      # 开心
+  4: sad        # 难过
+  5: surprise   # 惊讶
+  6: neutral    # 平静
+  7: contempt   # 轻蔑
+  8: confused   # 困惑
+  9: helpless   # 无助
+  10: bitter    # 苦涩
+  11: anxious   # 焦虑
+  12: excited   # 兴奋
+  13: calm      # 镇静
+  14: worried   # 担心
